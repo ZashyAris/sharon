@@ -4,25 +4,34 @@ font-family: 'Monteserrat',sans-serif;
 background-repeat: no-repeat;
 background-size: 100%;
 }
-
+.main{
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.second{
+    font-size: 34px;
+font-family:'Times New Roman', Times, serif;
+color:black;
+}
 nav>ul>li>a:hover{
 box-shadow:2 2 20px black, inset 1 1 2px rgb(207, 206, 206);
 background:grey;
 }
 .footer{
 background-color: grey;
-text-align: left;
+text-align: right;
 padding-top: 10px;
 padding-bottom: 10px;
-}aqua;
-text-align: left;
+text-align:left;
+width:100%;
 }
 nav{
     max-width:960px;
     margin:0 auto;
-    padding:10px;
+    padding:0px;
     margin-right: 0%;
-    font-size: 30px;
+    font-size:30px;
 }
 nav ul{
     text-align: right;
@@ -37,4 +46,19 @@ nav>ul>li>a{
     text-transform: uppercase;
     text-decoration: none;
     list-style:none;
+}
+img{
+    padding-left: 100px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px black;
+}
+.videos{
+font-size: 34px;
+font-family:'Times New Roman', Times, serif;
+color:black;
+text-align: center;
+}
+.music{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
 }
