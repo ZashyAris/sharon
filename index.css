@@ -1,0 +1,40 @@
+body{
+background-image:url("https://image.shutterstock.com/image-vector/blue-white-light-polygonal-mosaic-260nw-230257930.jpg");
+font-family: 'Monteserrat',sans-serif;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+nav>ul>li>a:hover{
+box-shadow:2 2 20px pink, inset 1 1 2px rgb(180, 240, 240);
+background:rgb(175, 231, 227);
+}
+.footer{
+background-color: rgb(177, 241, 241);
+text-align: left;
+padding-top: 10px;
+padding-bottom: 10px;
+}aqua;
+text-align: left;
+}
+nav{
+    max-width:960px;
+    margin:0 auto;
+    padding:10px;
+    margin-right: 0%;
+    font-size: 30px;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+}
+nav>ul>li>a{
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style:none;
+}
