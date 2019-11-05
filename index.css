@@ -1,16 +1,16 @@
 body{
-background-image:url("https://image.shutterstock.com/image-vector/blue-white-light-polygonal-mosaic-260nw-230257930.jpg");
+background-image:url("https://bit.ly/2WLgSgN");
 font-family: 'Monteserrat',sans-serif;
 background-repeat: no-repeat;
 background-size: 100%;
 }
 
 nav>ul>li>a:hover{
-box-shadow:2 2 20px pink, inset 1 1 2px rgb(180, 240, 240);
-background:rgb(175, 231, 227);
+box-shadow:2 2 20px black, inset 1 1 2px rgb(207, 206, 206);
+background:grey;
 }
 .footer{
-background-color: rgb(177, 241, 241);
+background-color: grey;
 text-align: left;
 padding-top: 10px;
 padding-bottom: 10px;
