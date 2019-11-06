@@ -1,18 +1,29 @@
-body{
+.container{
 background-image:url("https://bit.ly/2WLgSgN");
 font-family: 'Monteserrat',sans-serif;
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
+top:0;
+bottom:0;
+left:0;
+right: 0;
 }
 .main{
     font-size: 150px;
     text-align: center;
     font-family: 'Cinzel Decorative', cursive;
+    text-shadow: 5px 5px 5px rgb(91, 91, 192);
 }
 .second{
     font-size: 34px;
 font-family:'Times New Roman', Times, serif;
 color:black;
+text-align: center
+}
+.back{
+    color:navy;
+    list-style:none;
+    text-align: right;
 }
 nav>ul>li>a:hover{
 box-shadow:2 2 20px black, inset 1 1 2px rgb(207, 206, 206);
@@ -23,7 +34,7 @@ background-color: grey;
 text-align: right;
 padding-top: 10px;
 padding-bottom: 10px;
-text-align:left;
+text-align:center;
 width:100%;
 }
 nav{
@@ -61,4 +72,24 @@ text-align: center;
 .music{
    font-family: 'Times New Roman', Times, serif;
    font-size: 30px;
+}
+#overlay{
+   
+    top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0,0,0,0.1);
+}
+.second>h1{
+    text-shadow: 5px 5px 5px rgb(91, 91, 192);
+}
+.music>h1{
+    text-shadow: 5px 5px 5px rgb(91, 91, 192);
+}
+.videos>h1{
+    text-shadow: 5px 5px 5px rgb(91, 91, 192);
+}
+.music>h1,p{
+    text-align: center;
 }
