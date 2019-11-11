@@ -1,16 +1,14 @@
 .container{
-background-image:url("https://bit.ly/2WLgSgN");
-font-family: 'Monteserrat',sans-serif;
-background-repeat: no-repeat;
 background-size: cover;
 top:0;
 bottom:0;
 left:0;
 right: 0;
 overflow:none;
+margin:auto;
 }
 .main{
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
     font-family: 'Cinzel Decorative', cursive;
     text-shadow: 5px 5px 5px rgb(91, 91, 192);
@@ -23,20 +21,22 @@ text-align: center
 }
 .back{
     color:navy;
-    list-style:none;
     text-align: right;
+    clear: both;
+    position:static;
 }
 nav>ul>li>a:hover{
 box-shadow:2 2 20px black, inset 1 1 2px rgb(207, 206, 206);
 background:grey;
 }
-.footer{
+#footer{
 background-color: grey;
 text-align: right;
 padding-top: 10px;
 padding-bottom: 10px;
 text-align:center;
 width:100%;
+clear: both;
 }
 nav{
     max-width:960px;
@@ -60,19 +60,23 @@ nav>ul>li>a{
     list-style:none;
 }
 img{
-    padding-left: 100px;
-    border-radius: 5%;
-    box-shadow: 10px 10px 10px black;
+    padding-left: 80px;
+    border-radius:1%;
+    box-shadow: 20px 20px 20px black;
+    float: left;
+    column-fill: auto
 }
-.videos{
+#contacts{
 font-size: 34px;
 font-family:'Times New Roman', Times, serif;
 color:black;
 text-align: center;
 }
-.music{
+#about{
    font-family: 'Times New Roman', Times, serif;
    font-size: 30px;
+   float: left;
+   text-align: center;
 }
 #overlay{
    
@@ -85,12 +89,37 @@ text-align: center;
 .second>h1{
     text-shadow: 5px 5px 5px rgb(91, 91, 192);
 }
-.music>h1{
+#about>h2{
+    text-shadow: 5px 5px 5px rgb(91, 91, 192);
+    font-size: 50px;
+}
+#contacts>h2{
     text-shadow: 5px 5px 5px rgb(91, 91, 192);
 }
-.videos>h1{
-    text-shadow: 5px 5px 5px rgb(91, 91, 192);
-}
-.music>h1,p{
+#contacts>h1,p{
     text-align: center;
+}
+#cont{
+    font-size:24px
+}
+.main2{
+    align-content: center;
+    float:right;
+    font-size: 34px;
+}
+body>h2{
+    text-shadow: 5px 5px 5px rgb(91, 91, 192);
+}
+#gallery{
+float: left;
+font-size: 34px;
+text-shadow: 5px 5px 5px rgb(91, 91, 192);
+image-rendering: auto;
+flex-direction: initial;
+padding:30px;
+}
+#contacts{
+    float:left;
+    text-align: left;
+    clear: bottom;
 }
