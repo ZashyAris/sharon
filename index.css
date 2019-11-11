@@ -5,7 +5,8 @@ bottom:0;
 left:0;
 right: 0;
 overflow:none;
-margin:auto;
+margin:1%;
+padding: 1%;
 }
 .main{
     font-size: 100px;
@@ -60,7 +61,7 @@ nav>ul>li>a{
     list-style:none;
 }
 img{
-    padding-left: 80px;
+    padding-left: 0;
     border-radius:1%;
     box-shadow: 20px 20px 20px black;
     float: left;
@@ -100,7 +101,29 @@ text-align: center;
     text-align: center;
 }
 #cont{
-    font-size:24px
+    font-size:24px;
+    padding: 2%;
+    width: 60%;
+    color: white;
+    border: 1px solid grey;
+    margin-left: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#cont input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#cont input[type=checkbox]{
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .main2{
     align-content: center;
@@ -118,8 +141,26 @@ image-rendering: auto;
 flex-direction: initial;
 padding:30px;
 }
+
+#gallery ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#gallery ul li{
+    list-style: none;
+    margin: 2%;
+}
+
 #contacts{
     float:left;
     text-align: left;
     clear: bottom;
+}
+#gallery h2{
+    text-align: center;
+}
+#contacts h2{
+    text-align: center;
 }
